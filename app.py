@@ -3,24 +3,17 @@ from src.text_summarizer_app.pipeline.prediction import PredictionPipeline
 from src.text_summarizer_app.logging import logger
 from src.text_summarizer_app.utils.thompson_sampling import ts
 import numpy as np
+import emoji
 
 # Streamlit app
+
 def main():
     
     pipeline = PredictionPipeline()
-
-    # Set Streamlit theme to dark
-    st.markdown("""
-        <style>
-        .reportview-container {
-            background: black;
-            color: white;
-        }
-        </style>
-    """, unsafe_allow_html=True)
-
-    st.title("Text Summarization App")
-    text = st.text_area("Enter your text here:", height = 300)
+    
+    st.title("SummarEase: " + emoji.emojize(":pen:"))
+    st.header("Read Faster, Understand Better")
+    text = st.text_area("Enter text to summarize:", height = 300)
 
     # Define initial alpha and beta values for Thompson sampling
     alpha_bullet, beta_bullet = 1, 1
