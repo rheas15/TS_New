@@ -6,7 +6,18 @@ import numpy as np
 
 # Streamlit app
 def main():
+    
     pipeline = PredictionPipeline()
+
+    # Set Streamlit theme to dark
+    st.markdown("""
+        <style>
+        .reportview-container {
+            background: black;
+            color: white;
+        }
+        </style>
+    """, unsafe_allow_html=True)
 
     st.title("Text Summarization App")
     text = st.text_area("Enter your text here:", height = 300)
