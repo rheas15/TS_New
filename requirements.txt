@@ -3,6 +3,7 @@ transformers[sentencepiece]
 datasets
 pandas
 numpy
+emoji
 streamlit
 pyYAML
 notebook
