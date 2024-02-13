@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: text-summarizer-app
+Version: 0.0.0
+Summary: A python package for Text Summarization App
+Home-page: https://github.com/Rhea/Text-Summarizer-App
+Author: Rhea
+Author-email: sethi.rhea11@gmail.com
+Project-URL: Bug Tracker, https://github.com/Rhea/Text-Summarizer-App/issues

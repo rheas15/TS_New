@@ -1,0 +1,13 @@
+prefix=/Users/rheasethi/Documents- M2/career_projects/text_summarizer/Text-Summarizer-App/.venv
+exec_prefix=/Users/rheasethi/Documents- M2/career_projects/text_summarizer/Text-Summarizer-App/.venv
+libdir=/Users/rheasethi/Documents- M2/career_projects/text_summarizer/Text-Summarizer-App/.venv/lib
+sharedlibdir=/Users/rheasethi/Documents- M2/career_projects/text_summarizer/Text-Summarizer-App/.venv/lib
+includedir=/Users/rheasethi/Documents- M2/career_projects/text_summarizer/Text-Summarizer-App/.venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

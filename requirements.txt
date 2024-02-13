@@ -1,0 +1,13 @@
+transformers
+transformers[sentencepiece]
+datasets
+pandas
+numpy
+streamlit
+pyYAML
+notebook
+boto3
+mypy-boto3-s3
+tensorflow
+pytorch
+-e .

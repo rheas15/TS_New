@@ -1,0 +1,11 @@
+prefix=/Users/rheasethi/Documents- M2/career_projects/text_summarizer/Text-Summarizer-App/.venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/rheasethi/Documents- M2/career_projects/text_summarizer/Text-Summarizer-App/.venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

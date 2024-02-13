@@ -1,0 +1,19 @@
+==> 2024-02-12 15:01:06 <==
+# cmd: /Users/rheasethi/opt/anaconda3/bin/conda create -p .venv python==3.9 -y
+# conda version: 22.11.1
++defaults/noarch::tzdata-2023d-h04d1e81_0
++defaults/osx-64::ca-certificates-2023.12.12-hecd8cb5_0
++defaults/osx-64::libcxx-14.0.6-h9765a3e_0
++defaults/osx-64::libffi-3.3-hb1e8313_2
++defaults/osx-64::ncurses-6.4-hcec6c5f_0
++defaults/osx-64::openssl-1.1.1w-hca72f7f_0
++defaults/osx-64::pip-23.3.1-py39hecd8cb5_0
++defaults/osx-64::python-3.9.0-h88f2d9e_2
++defaults/osx-64::readline-8.2-hca72f7f_0
++defaults/osx-64::setuptools-68.2.2-py39hecd8cb5_0
++defaults/osx-64::sqlite-3.41.2-h6c40b1e_0
++defaults/osx-64::tk-8.6.12-h5d9f67b_0
++defaults/osx-64::wheel-0.41.2-py39hecd8cb5_0
++defaults/osx-64::xz-5.4.5-h6c40b1e_0
++defaults/osx-64::zlib-1.2.13-h4dc903c_0
+# update specs: ['python==3.9']
