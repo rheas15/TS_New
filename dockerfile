@@ -12,6 +12,4 @@ RUN pip install --upgrade accelerate
 RUN pip uninstall -y transformers accelerate
 RUN pip install transformers accelerate
 
-EXPOSE 8501
-
-CMD ["streamlit", "run", "main.py", "--server.port", "8501"]
+CMD ["streamlit", "run", "main.py"]
