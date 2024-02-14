@@ -3,6 +3,8 @@
 ## Overview
 SummarEase is a web application that allows users to generate summaries from input text. It leverages the PEGASUS Transformer model from the Hugging Face library  to condense lengthy text documents into concise summaries, enabling users to extract key information quickly and efficiently.
 
+![Demo Video](https://github.com/rheas15/Text-Summarization-App/blob/main/demo.gif)
+
 ## Features
 - **Input Text**: Users can input text into the application through a user-friendly interface.
 - **Summarization**: The application generates abstractive summaries of the input text.
